@@ -1,0 +1,379 @@
+*{
+    font-family:'Source Sans Pro',sans-serif;
+}
+body{
+    color: #4c4c4c;
+}
+
+.btn-success {
+    box-shadow: none !important;
+    color: #fff;
+    background-color: #15C56A !important;
+}
+
+.btn-outline-success {
+    border-color: #15C56A;
+    color: #15C56A;
+    box-shadow: none !important;
+    padding: 10px 20px;
+    font-weight: 600 !important;
+    border: 2px solid;
+}
+
+.btn-outline-success:hover {
+    background-color: #15C56A !important;
+    border-color: #15C56A;
+    color: #fff;
+}
+
+
+/* navbar */
+
+.navbar {
+    background: #242424 !important;
+}
+.navbar-brand img {
+    width: 122px;
+}
+.navbar .nav-item{
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.navbar .nav-link {
+    line-height: 30px;
+    font-size: 14px;
+}
+.navbar .nav-link:hover{
+    color: #23A657 !important;
+}
+
+
+
+/* carousel */
+.carousel-indicators li {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+.carousel-item {
+    height: 90vh;
+    position: relative;
+}
+
+.carousel-item img {
+    height: inherit;
+    object-fit: cover;
+    object-position: center center;
+}
+.carousel-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .70);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.carousel-content {
+    max-width: 470px;
+    text-align: center;
+    margin: auto;
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+.carousel-content img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.carousel-content p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.carousel-content h2 {
+    font-size: 62px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/* social section */
+.social-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.social-section a {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    height: 48px;
+    width: 48px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 44px;
+    margin: 0 8px;
+    transition: all .3s;
+}
+.social-section a:hover{
+    background-color: #15C56A;
+    border:2px solid transparent;
+}
+.btn{
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 300;
+}
+.btn-success1{
+    background-color: #15C56A;
+    color: #fff !important;
+    border-radius: 5px;
+    padding: 12px 23px;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+    box-shadow: none !important;
+}
+
+/* product section */
+.product-header {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.product-header h2 {
+    font-weight: 600;
+}
+
+.product-img{
+    position: relative;
+}
+.product-img img {
+    border-radius: 5px;
+}
+.hover-mask {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #23a65785;
+    opacity: 0;
+}
+
+.hover-mask i {
+    font-size: 40px;
+    color: #fff;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+.product-img:hover .hover-mask{
+    opacity: 1;
+}
+
+
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.product-price {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.product-title {
+    font-weight: 300;
+    font-size: 20px;
+    color: #23A657;
+}
+
+
+/* grey section */
+.grey-section {
+    background-color: #f2f2f2;
+}
+.padding-top-bottom {
+    padding: 60px 0;
+}
+.center {
+    margin: 25px 0 20px 0;
+    float: left;
+    font-weight: 300;
+    font-size: 24px;
+}
+.btn-center{
+    margin: 15px 0 15px 0;
+}
+
+/* about section */
+.about-header h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about-header h4 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: .8;
+}
+
+.about-content p {
+    font-size: 18px;
+    font-weight: 300;
+    word-spacing: 1.3px;
+}
+
+
+/* testimonial section */
+
+.testimonial{
+    background-image: url('../images/12.jpg');
+    overflow: hidden;
+    background-size: cover;
+    background-position: center 16%;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+.testimonial-content {
+    text-align: center;
+}
+
+.carousel-item.testimonial-item {
+    height: 235px;
+}
+.testimonial-content h1 {
+    font-weight: 300;
+    font-size: 33px;
+}
+
+.testimonial-content h3 {
+    font-weight: 300;
+    font-size: 22px;
+}
+.testimonial-all{
+    z-index: 20;
+    position: relative;
+}
+
+
+/* newsletter */
+
+.input-group {
+    border-radius: 5px;
+}
+.newsletter {
+    background-color: #323A42;
+}
+
+.newsletter-content {
+    color: #fff;
+    text-align: center;
+}
+.newsletter-content h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.newsletter-content h4 {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+input.form-control {
+    box-shadow: none !important;
+}
+.email {
+    padding: 23px 13px;
+}
+
+.btn-store {
+    background-color: #15C56A !important;
+    color: #fff !important;
+    padding: 11px 30px;
+}
+
+/* cta */
+.cta i {
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.cta {
+    background-color: #23A657;
+}
+
+.cta h3 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+
+
+/* contact section */
+.contact {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-header h1 {font-weight: 600;font-size: 36px;}
+
+.contact-header p {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 2;
+}
+.form-content input,textarea {
+    border: none;
+    padding: 23px 13px;
+    border-radius: 5px;
+    box-shadow: none !important;
+}
+address {
+    font-size: 18px;
+    font-weight: 300;
+}
+.strong-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+}
+
+.footer {
+    background: #323A42;
+    padding: 40px 0;
+}
+
+.footer-left a {
+    text-decoration: none;
+    color: #23A657;
+}
+.footer-left {
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer-right {
+    padding: 13px 0;
+}
